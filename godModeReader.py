@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome(r"C:\chromedriver.exe")
 driver.implicitly_wait(10)
 driver.get('https://app.erudex.com/login/index.html')
 time.sleep(1)
