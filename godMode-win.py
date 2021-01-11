@@ -8,9 +8,6 @@ driver = webdriver.Chrome(r"C:\chromedriver.exe")
 driver.get("https://app.erudex.com/login/index.html")
 driver.implicitly_wait(10)
 time.sleep(1)
-driver.find_element_by_name('username').send_keys('nine.9148')
-driver.find_element_by_name('password').send_keys('NineEdu1998')
-driver.find_element_by_name('login').click()
 
 QID = []
 options = []
